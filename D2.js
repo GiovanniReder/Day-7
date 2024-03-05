@@ -57,7 +57,7 @@ if (
   console.log("+-8");
 else {
   console.log("not +- 8");
-} /* 
+} /* in quetso caso in console esce +-8
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile 
@@ -68,15 +68,17 @@ else {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/* let totalShoppingCart = 25;
-let spedizione = 10;
-let total =
-  totalShoppingCart >= 50 ? totalShoppingCart : totalShoppingCart + spedizione;
-console.log(total);
-if (total > 50) console.log("spedizione gratuita");
+let totalShoppingCart = 25;
+let secondaSpedizione = 10;
+let secondoTotal =
+  totalShoppingCart >= 50
+    ? totalShoppingCart
+    : totalShoppingCart + secondaSpedizione;
+console.log(secondoTotal);
+if (secondoTotal > 50) console.log("spedizione gratuita");
 else {
   console.log("costo di spedizione pari a 10$");
-} */
+}
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima 
@@ -85,13 +87,13 @@ else {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let totalShoppingCart = 55;
+let secondoTotalShoppingCart = 55;
 let spedizione = 10;
 let discount = 0.2;
 let total =
-  totalShoppingCart >= 50
-    ? totalShoppingCart
-    : totalShoppingCart * (1 - discount) + spedizione;
+  secondoTotalShoppingCart >= 50
+    ? secondoTotalShoppingCart
+    : secondoTotalShoppingCart * (1 - discount) + spedizione;
 console.log(total);
 if (total > 50) console.log("spedizione gratuita");
 else {
