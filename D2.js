@@ -33,7 +33,7 @@ const numero = 25;
 if (numero % 5 === 0) console.log("divisibile per 5");
 else {
   console.log("non è divisibile per 5");
-}
+} /* si usa % 5 === 0 perchè il resto fornito dalla divisione deve essere uguale a 0
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro 
   addizione/sottrazione sia uguale a 8.
@@ -79,6 +79,15 @@ if (secondoTotal > 50) console.log("spedizione gratuita");
 else {
   console.log("costo di spedizione pari a 10$");
 }
+/* const totalShoppingCart = 40
+   const shippingCost = 10
+   let total 
+   if (totalShoppingCart>50) console.log("Free shipping") {
+    else {
+      console.log("il totale è", totalShoppingCart + ShippingCost)
+    }
+   }
+
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima 
@@ -161,7 +170,7 @@ if (pariDispari % 2 === 0) {
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza. */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let val = 5;
+let val = 3;
 if (val < 10 && val > 5) {
   console.log("Meno di 10");
 } else if (val < 5) {
@@ -198,6 +207,7 @@ console.log(me); /* lastName non c'è più
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+/* me.skills.splice(2, 1) */
 me.skills.pop();
 console.log(me); /* "css" è stato rimosso
 /* ESERCIZIO 14
@@ -225,3 +235,4 @@ console.log(arrayVuoto);
 /* SCRIVI QUI LA TUA RISPOSTA */
 arrayVuoto[arrayVuoto.length - 1] = 100;
 console.log(arrayVuoto);
+/* array1.splice(9, 1, 100)*/
